@@ -1,0 +1,25 @@
+{
+    "@context": "https://www.w3.org/ns/did/v1",
+    "issuer": {
+        "issuerID": "1KUTTG5QSWjXydwyE4w1LP2nET8hvNnMs1",
+        "publicKey": {
+            "type": "Ed25519VerificationKey",
+            "value": "a76f23be037469be7f6af21c4fcd25f0ae78407dc5c27835e2240adfdc906833"
+        },
+        "issuanceDate": "2022-12-11 18:37:19"
+    },
+    "subject": {
+        "certificateID": "7BCD-8D4C-9G3K-A62N",
+        "studentID": "1BoBiew5dkyZmAJF5XQApHBrHfrkyCocJw",
+        "fullName": "Bob",
+        "degree": "MSc in Computer Science & Engineering",
+        "institutionName": "Korea University",
+        "department": "Department of Computer Sciene & Enginnering",
+        "roll": "M2019200",
+        "score": "4.48/4.50"
+    },
+    "proof": {
+        "type": "EdDSA",
+        "signature": "cd3f919a2c9b15933c0c3ed33af4f1d2c8a4483f6c7eb8978f53e1ca63841aeabb3ba968c1f7f98d83a52de700a9eb1c285343d377243302a24051e79466910e"
+    }
+}

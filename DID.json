@@ -1,0 +1,43 @@
+{
+    "@context": "https://www.w3.org/ns/did/v1",
+    "issuer": {
+        "issuerID": "1KoR4pzD59gfD2eUPvFp91KxCFy638EWhS",
+        "publicKey": {
+            "type": "Ed25519VerificationKey",
+            "value": "9d45579de90a05d9a91cabab4cd379b1c2ac3cf7771fd9555ae87eadc48a0a81"
+        },
+        "issuanceDate": "2020-03-01 18:37:19"
+    },
+    "student": {
+        "studentID": "1BoBiew5dkyZmAJF5XQApHBrHfrkyCocJw",
+        "fullName": "Bob",
+        "email": "bob@korea.ac.kr",
+        "profileURL": [
+            "https://bob.org",
+            "https://linkedin.com/bob"
+        ],
+        "affliation": {
+            "institutionID": "1KUTTG5QSWjXydwyE4w1LP2nET8hvNnMs1",
+            "institutionName": "Korea University",
+            "department": "Department of Computer Sciene & Enginnering",
+            "classRoll": "M2019200"
+        },
+        "personalInfo": {
+            "type": "Ed25519Encryption",
+            "phone": "############",
+            "address": "#####################################################"
+        },
+        "publicKey": {
+            "type": "Ed25519VerificationKey",
+            "value": "75bfab0b5a43a1ab46370b97d49da713eaee19636c2ff847fe62efa81a6dd285"
+        }
+    },
+    "authentication": {
+        "type": "EdDSA",
+        "signature": "8b83c71c8c5a874e29bef72562d5a8d81b58cf8bceed97e04963bad3f37279dd5d0aed29de8f700b9fd86381eef961a3bcba9bc0770de484a37e311e4ae01b03"
+    },
+    "proof": {
+        "type": "EdDSA",
+        "signature": "0da7682f66822cf63c135f54241feed452b0abce2e4256b32a70f738df42bef1af0e762ead2df066fe258d31e12f366f97a5b5fcdb16f12198e5ac063bd98d09"
+    }
+}
